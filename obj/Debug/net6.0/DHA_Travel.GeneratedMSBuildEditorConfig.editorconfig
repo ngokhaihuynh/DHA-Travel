@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DHA_Travel
 build_property.RootNamespace = DHA_Travel
-build_property.ProjectDir = c:\Users\ngokh\Desktop\DHA_Travel\DHA_Travel\
+build_property.ProjectDir = d:\SPACE_W\DHA_Travel\DHA_Travel\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\ngokh\Desktop\DHA_Travel\DHA_Travel
+build_property.MSBuildProjectDirectory = d:\SPACE_W\DHA_Travel\DHA_Travel
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ngokh/Desktop/DHA_Travel/DHA_Travel/Pages/Error.cshtml]
+[d:/SPACE_W/DHA_Travel/DHA_Travel/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ngokh/Desktop/DHA_Travel/DHA_Travel/Pages/Index.cshtml]
+[d:/SPACE_W/DHA_Travel/DHA_Travel/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ngokh/Desktop/DHA_Travel/DHA_Travel/Pages/Privacy.cshtml]
+[d:/SPACE_W/DHA_Travel/DHA_Travel/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ngokh/Desktop/DHA_Travel/DHA_Travel/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[d:/SPACE_W/DHA_Travel/DHA_Travel/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ngokh/Desktop/DHA_Travel/DHA_Travel/Pages/_ViewImports.cshtml]
+[d:/SPACE_W/DHA_Travel/DHA_Travel/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ngokh/Desktop/DHA_Travel/DHA_Travel/Pages/_ViewStart.cshtml]
+[d:/SPACE_W/DHA_Travel/DHA_Travel/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ngokh/Desktop/DHA_Travel/DHA_Travel/Pages/Shared/_Layout.cshtml]
+[d:/SPACE_W/DHA_Travel/DHA_Travel/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d3wnfs18m5
