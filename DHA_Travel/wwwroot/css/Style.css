@@ -1,0 +1,564 @@
+﻿:root {
+    --primary-color: #EE4D2D;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --navbar-height: 34px;
+    --header-height: 120px;
+    --header-with-search-hright: calc(var(--header-height) - var(--navbar-height));
+}
+
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* thay cho sd .grid */
+.grid__full-width {
+    width: 100%;
+}
+
+/* nam cung tren hang ngang */
+.gird__row {
+    display: flex;
+    flex: wrap;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    background-image: url(../img/slider_1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    margin-left: 30px;
+    margin-top: 300px;
+}
+
+.header__navbar-list {
+    list-style: none;
+}
+
+.header__navbar-item {
+    display: inline-block;
+    position: relative;
+}
+
+.header__navbar-item-link {
+    display: inline-block;
+    font-size: 20px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+    .header__navbar-item:hover,
+    .header__navbar-item-link:hover {
+        color: #8dc720;
+        cursor: pointer;
+    }
+
+.header__navbar-item-click:hover .header__menu-list {
+    display: block;
+}
+
+.header__menu-list {
+    position: absolute;
+    top: 100%;
+    width: 180px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    display: none;
+    animation: fadeIn ease-in 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.header__menu-item {
+    list-style: none;
+}
+
+
+
+
+.header__menu-link {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--black-color);
+    line-height: 26px;
+    padding: 8px 16px;
+}
+
+
+    .header__menu-link:hover {
+        cursor: pointer;
+        color: #8dc720;
+    }
+
+.header-with-search {
+    margin-top: 280px;
+}
+
+.header_search-around {
+    
+    margin-left: 10%;
+}
+
+/* .header_search {
+    background-color: var(--white-color); 
+    height: 40px;
+    width: 800px; 
+    margin-right: ;
+    margin-left: 20%;
+    margin-top: 270px; 
+    border-radius: 2px;
+} */
+
+.header_search-input-text {
+    height: 40px;
+    width: 75%;
+    display: inline-block;
+}
+
+.header_search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: var(--text-color);
+    padding: 0 16px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+
+.header_search-button {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.header_search-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    background-color: #8dc720;
+    color: var(--white-color);
+}
+
+    .header_search-btn:hover {
+        background-color: #3644af;
+    }
+
+
+
+.content {
+    height: 450px;
+}
+
+.content_aroud {
+    margin-top: 120px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.content_aroud-text {
+    margin-top: 0
+}
+
+.content_section {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+    .content_section .section-heading {
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .content_section .section-sub-heading {
+        margin-top: 15px;
+        margin-left: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .content_section .about-text {
+        margin-top: 15px;
+        color: #a5a5a5;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 35px;
+    }
+
+.content_picture {
+}
+
+    .content_picture .picture {
+        width: 450px;
+        height: 400px;
+        margin-left: 50px;
+    }
+
+.content-wrap {
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 1px solid #0000001e;
+    width:600px;
+
+}
+
+
+.content_section-select {
+    display: inline;
+    width: 100%;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.content_title-item {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: var(--black-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.content-icon {
+    padding-right: 3px;
+    color: #8dc720;
+}
+
+
+.container {
+    height: 500px;
+}
+
+.container_content {
+}
+
+.container_heading {
+}
+
+
+
+.container_heading-menu {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+.container_heading-text {
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+    .container_heading-text:hover {
+        color: #a5a5a5;
+    }
+
+/*Phan hinh anh*/
+
+
+.container_img {
+    height: 210px;
+    width: 295px;
+    display: inline-block;
+}
+
+
+.container-thumbnai {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.container_img-heading {
+}
+
+.container_img-size {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ececec;
+}
+
+
+.position {
+    display: inline-block;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 10px 20px;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+    background: #fff;
+    text-align: center;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.fa-location-dot {
+    color: #808080;
+    opacity: 0.8;
+    margin-left: 3px;
+}
+
+.container_product-info {
+    margin-left: 10px;
+    width: 285px;
+    height: 78%;
+    border: 1px solid #ececec;
+}
+
+.product_name {
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+.product_name-title {
+    width: 245px;
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+    .product_name-title:hover {
+        color: #8dc720;
+    }
+
+
+.poduct_time {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.product_time-name {
+    font-weight: 400;
+    width: 100%;
+}
+
+.fa-clock {
+    margin-right: 10px;
+}
+
+.container_price-box {
+    margin-top: 30px;
+    color: #fe8424;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.buttom_action-view {
+    height: 45px;
+}
+
+.buttom_view {
+    width: 286px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid #ececec;
+}
+
+.buttom_buttom {
+    text-decoration: none;
+}
+
+.buttom_click {
+    float: right;
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    background-color: #3644af;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 1px;
+}
+
+    .buttom_click:hover {
+        background-color: #8dc720;
+    }
+
+
+
+    /*phan tin tuc*/
+.content_info-around {
+    height: 600px;
+    margin-top: 60px;
+  
+}
+.content_info-heading {
+
+}
+
+.info_heading{
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    font-weight:600;
+}
+
+.content_info-img-around {
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 1px solid #ececec;
+    display:inline-block;   
+}
+
+.content_info-img{
+
+}
+
+.img-info-heading{
+
+}
+
+.img-around-heading{
+    width:100%;
+    height:250px;
+}
+
+.content_info-blog {
+    margin-top:20px;
+    height:150px;
+    margin-left:10px;
+    
+}
+
+
+
+.info-blog-icon {
+        text-decoration: none;
+        color: var(--black-color);
+        font-weight: 600;
+}
+
+.info-blog-icon:hover {
+        color: #8dc720;
+}
+
+
+.post_date-around {
+    margin-top: 20px;
+}
+
+.post-date {
+    color: #8f8f8f;
+}
+/*Phan cuoi contact*/
+.footer {
+    margin-top:10px;
+    height:400px;
+}
+
+
+
+.footer_container {
+    
+}
+
+.footer_container-around {
+    height: 400px;
+    background-color:#ececec;
+}
+
+
+
+.footer_container-list {
+    display: inline-block;
+    height: 250px;
+    width: 31%;
+    margin-left: 20px;
+    border: 2px solid #dbdbdb;
+   
+}
+
+
+.footer_heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer_list-heading {
+    display: inline-block;
+}
+
+.footer_container-icon {
+    margin-left: 10px;
+    margin-top: 20px;
+    list-style: none;
+    line-height:20px;
+    width:300px;
+    
+}
+
+.footer_icon-text {
+  
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight:500;
+   
+}
+
+    .footer_icon-text:hover {
+        color:#8dc720;
+    }
+    .footer_container-icon:hover {
+        color: #8dc720;
+    }
